@@ -1,0 +1,12 @@
+// Customize variables
+// note: we put on the top of import bootstrap bc, bootstrap uses "default"
+// to set the value of variable, which means if the variables have not set
+// yet, so use this value (default value)
+$primary: #F50057;
+// $secondary:
+
+
+// to change the bootstrap default style, we need to create
+//  seperate sass file, then import all the bootstrap sass files 
+// to here
+@import '../node_modules/bootstrap/scss/bootstrap'

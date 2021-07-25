@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap5-sass-prac",
+  "version": "1.0.0",
+  "description": "#### master-pilates-website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matintynn/master-pilates-website.git"
+  },
+  "author": "Matin Truong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matintynn/master-pilates-website/issues"
+  },
+  "homepage": "https://github.com/matintynn/master-pilates-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
