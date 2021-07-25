@@ -3,10 +3,18 @@
 // to set the value of variable, which means if the variables have not set
 // yet, so use this value (default value)
 $primary: #F50057;
+
 // $secondary:
+body{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
 
-
+.btn-outline-primary:hover{
+    color: white !important;
+}
 // to change the bootstrap default style, we need to create
 //  seperate sass file, then import all the bootstrap sass files 
 // to here
 @import '../node_modules/bootstrap/scss/bootstrap'
+
