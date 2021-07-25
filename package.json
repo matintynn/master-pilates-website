@@ -4,7 +4,9 @@
   "description": "#### master-pilates-website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass sass -o assets/css --output-style compressed",
+    "watch": "npm run sass && node-sass sass -wo assets/css --output-style compressed",
+    "start": "npm run watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/matintynn/master-pilates-website#readme",
   "dependencies": {
     "bootstrap": "^5.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
   }
 }
