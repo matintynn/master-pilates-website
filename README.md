@@ -14,6 +14,8 @@
 * Sass
 
 ### Learned:
-* How to use Bootstrap 5 utilities & components
-* Customize Bootstrap variables
+* Implementing Bootstrap 5 utilities & components
+* Using Bootstrap icons
+* Customizing Bootstrap variables
 * What is !default in variables
+
