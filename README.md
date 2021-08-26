@@ -17,6 +17,7 @@ To design and build the landing page for Master Pilates by using Bootstrap 5.0.
 * Using Bootstrap icons
 * Customizing Bootstrap variables
 * What is !default in variables
+* Deploy the app on Netlify
 
 ### Live link:
 [Website link](https://dazzling-tereshkova-47f5ec.netlify.app/)
